@@ -42,7 +42,7 @@ header {
 .savane,
 .tigers {
   height: 100%;
-  width: 90vw;
+  width: 100vw;
   flex-shrink: 0;
   border: #d6939a 5px solid;
 }
