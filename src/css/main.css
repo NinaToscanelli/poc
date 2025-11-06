@@ -22,19 +22,21 @@ header {
 }
 
 .space {
-  height: 180vh;
+  height: 300vh;
   background-color: black;
 }
 
-.scroller-h {
+.scroller-stroll,
+.scroller-hunting {
   height: 100vh;
-  border: #7e4070 5px solid;
-  overflow: auto;
+  border: white 5px solid;
+  overflow: hidden;
 }
 
-.screens-container {
+.screens-stroll,
+.screens-hunting {
   display: inline-flex;
-  border: #985a69 5px solid;
+  border: black 5px solid;
   height: 100%;
 }
 
@@ -45,4 +47,24 @@ header {
   width: 100vw;
   flex-shrink: 0;
   border: #d6939a 5px solid;
+}
+
+.sky,
+.buffalo,
+.corpse {
+  height: 100%;
+  width: 100vw;
+  flex-shrink: 0;
+  border: #754c49 5px solid;
+}
+
+.automn {
+  background-color: #d6939a;
+}
+.winter {
+  background-color: white;
+}
+
+.fade {
+  mix-blend-mode: multiply;
 }
