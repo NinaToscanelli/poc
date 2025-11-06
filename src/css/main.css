@@ -12,3 +12,37 @@ img,
 video {
   display: block;
 }
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 80vh;
+  border: #e8da61 5px solid;
+}
+
+.space {
+  height: 180vh;
+  background-color: black;
+}
+
+.scroller-h {
+  height: 100vh;
+  border: #7e4070 5px solid;
+  overflow: auto;
+}
+
+.screens-container {
+  display: inline-flex;
+  border: #985a69 5px solid;
+  height: 100%;
+}
+
+.cave,
+.savane,
+.tigers {
+  height: 100%;
+  width: 90vw;
+  flex-shrink: 0;
+  border: #d6939a 5px solid;
+}
