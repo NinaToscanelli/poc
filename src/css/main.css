@@ -104,13 +104,31 @@ header {
   border: #754c49 5px solid;
 }
 
+.fade {
+  height: 300%;
+  width: 100vw;
+  flex-shrink: 0;
+  border: white 5px solid;
+  mix-blend-mode: multiply;
+}
 .automn {
+  height: 300%;
+  width: 100vw;
+  flex-shrink: 0;
+  border: black 5px solid;
   background-color: #d6939a;
 }
 .winter {
+  height: 300%;
+  width: 100vw;
+  flex-shrink: 0;
+  border: black 5px solid;
   background-color: white;
 }
 
-.fade {
-  mix-blend-mode: multiply;
+footer {
+  height: 300%;
+  width: 100vw;
+  flex-shrink: 0;
+  border: #e8da61 5px solid;
 }
