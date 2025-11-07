@@ -26,16 +26,14 @@ header {
   background-color: black;
 }
 
-.scroller-stroll,
-.scroller-hunting {
+.scroller-stroll {
   height: 100vh;
   border: white 5px solid;
   overflow: hidden;
   transform-origin: center center;
 }
 
-.screens-stroll,
-.screens-hunting {
+.screens-stroll {
   display: inline-flex;
   border: black 5px solid;
   height: 100%;
