@@ -9,9 +9,9 @@ var tl = gsap.timeline({
     trigger: ".scroller-stroll",
     pin: true,
     scrub: 1,
-    markers: true,
+    //markers: true,
     start: "center center",
-    end: "1000%", // 1000% = 10 écrans de haut
+    end: "1000%",
   },
 });
 
