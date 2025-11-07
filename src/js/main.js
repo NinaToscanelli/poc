@@ -39,6 +39,11 @@ tl.to(".screens-stroll", {
   duration: 4,
 });
 
+tl.to(".walking-sabre", {
+  x: "+=500px",
+  duration: 2,
+});
+
 tl.to(".tigers-image", {
   y: "100%",
   duration: 3,
@@ -63,12 +68,3 @@ tl.to(".screens-stroll", {
   x: "-80%",
   duration: 4,
 });
-
-// gsap.to(".screens-hunting", {
-//   x: "-66%",
-//   scrollTrigger: {
-//     trigger: ".scroller-hunting",
-//     pin: true,
-//     scrub: 1,
-//   },
-// });
